@@ -1,64 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f70fedb-2ca2-4da3-85b9-06f7bd3a7802" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/home/partials/partial1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/homeExtensionWithMoreStuff/js/controllers/homeExtWithStuffCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/core/js/services/extensionRegister.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/core/js/services/extensionService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/core/js/directives/screenDir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/angular/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/core/js/directives/testDir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/index/partials/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/includes/head.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/home/screen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/angular/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/extIndex/partials/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/homeExtensionWithMoreStuff/partials/homeExtWithStuffView.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/homeExtension/extension.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/extIndex/extension.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/angular/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/homeExtensionWithMoreStuff/extension.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/layouts/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/core/js/services/cacheService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/angular/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/angular/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/index/screen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/homeExtension/partials/homeExtView.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/angular/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/core/js/services/htmlAppenderFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/angular/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/extIndex/js/controllers/indexCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/index/js/controllers/indexCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/angular/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/angular/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/angular/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/angular/bootstrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/core/js/services/htmlAppendMethods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/core/screen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/home/js/controllers/homeCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/modules/homeExtension/js/controllers/homeExtCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/includes/foot.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/lib/angular/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="DELETED" beforePath="C:\Users\iluxa_000\Desktop\my-project\views\layout.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\iluxa_000\Desktop\my-project\public\js\services.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\iluxa_000\Desktop\my-project\public\js\directives.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\iluxa_000\Desktop\my-project\views\partials\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\iluxa_000\Desktop\my-project\views\index.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\iluxa_000\Desktop\my-project\views\partials\partial1.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\iluxa_000\Desktop\my-project\views\partials\partial2.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\iluxa_000\Desktop\my-project\public\js\filters.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\iluxa_000\Desktop\my-project\public\js\app.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\iluxa_000\Desktop\my-project\public\js\controllers.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+    <list default="true" id="5f70fedb-2ca2-4da3-85b9-06f7bd3a7802" name="Default" comment="new">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,7 +59,7 @@
       <file leaf-file-name="screen.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/modules/home/screen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47395834" vertical-offset="0" max-vertical-offset="768">
+            <state vertical-scroll-proportion="0.5449102" vertical-offset="0" max-vertical-offset="668">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
@@ -166,7 +111,6 @@
         <option value="$PROJECT_DIR$/assets.json" />
         <option value="$PROJECT_DIR$/public/modules/extendIndex/js/controllers/indexCtrl.js" />
         <option value="$PROJECT_DIR$/public/modules/index/js/controllers/indexCtrl.js" />
-        <option value="$PROJECT_DIR$/public/modules/home/screen.js" />
         <option value="$PROJECT_DIR$/public/modules/core/screen.js" />
         <option value="$PROJECT_DIR$/public/modules/index/screen.js" />
         <option value="$PROJECT_DIR$/public/modules/extIndex/extension.js" />
@@ -185,6 +129,7 @@
         <option value="$PROJECT_DIR$/public/modules/core/js/services/htmlAppenderFactory.js" />
         <option value="$PROJECT_DIR$/public/modules/core/js/services/htmlAppendMethods.js" />
         <option value="$PROJECT_DIR$/public/modules/core/js/directives/screenDir.js" />
+        <option value="$PROJECT_DIR$/public/modules/home/screen.js" />
       </list>
     </option>
   </component>
@@ -211,7 +156,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -298,14 +243,6 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -316,14 +253,12 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
       <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -331,6 +266,16 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -362,25 +307,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32921028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24635416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24635416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06087937" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23406279" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23406279" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282588" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282588" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -399,6 +344,8 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -762,7 +709,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/modules/home/screen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47395834" vertical-offset="0" max-vertical-offset="768">
+        <state vertical-scroll-proportion="0.5449102" vertical-offset="0" max-vertical-offset="668">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
