@@ -1,0 +1,12 @@
+
+<hr>
+
+{% for file in assets.js %}
+    <script type="text/javascript" src="/{{file}}"></script>
+{% endfor %}
+      <script>
+          window.localVars=  "{{ assets.js }}";
+      </script>
+
+
+

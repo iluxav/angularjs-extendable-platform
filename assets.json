@@ -1,0 +1,21 @@
+{
+    "css": {
+        "public/build/css/dist.min.css": [
+            "public/css/*.css",
+            "public/modules/**/css/*.css"
+        ]
+    },
+    "js": {
+        "public/build/js/dist.min.js": [
+            "public/js/lib/angular/angular.js",
+            "public/js/bootstrap.js",
+            "public/modules/core/js/services/extensionRegister.js",
+            "public/modules/*/screen.js",
+            "public/modules/*/extension.js",
+            "public/modules/*/js/{controllers,directives,services}/*.js",
+            "public/js/init.js",
+            "public/modules/core/js/services/htmlAppendMethods.js"
+
+        ]
+    }
+}
