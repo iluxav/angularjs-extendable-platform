@@ -60,7 +60,7 @@ app.use(function(req, res, next) {
  * Routes
  */
 app.use(app.router);
-// serve index and view partials
+// serve index and partial views
 app.get('/', routes.index);
 app.get('/modules/partialViews/:module/:name', routes.partials);
 
