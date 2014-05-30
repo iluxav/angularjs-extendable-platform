@@ -25,7 +25,7 @@ window.extensionRegister = (function (registerLib) {
     };
 
     var getExtensionRoutes = function (screenName) {
-        var defaultConfig = window.extendifyConfiguration.extensionModulesLoadingOrder[screenName];
+
         return registerLib[screenName] ?
             registerLib[screenName].extensions.sort(SortByName) : [];
     };
@@ -34,7 +34,7 @@ window.extensionRegister = (function (registerLib) {
             registerLib[screenName].route : {};
     };
     var loadModules = function (EXTENSIONS) {
-        angular.forEach(registerLib, function (module, i) {
+        angular.forEach(registerLib, function (module) {
             EXTENSIONS.push(module.moduleName);
             EXTENSIONS = $.merge(EXTENSIONS, $.map(window.extensionRegister.getExtensionRoutes(module.screenName), function (o) {
                 return o.moduleName;
