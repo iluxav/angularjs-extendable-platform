@@ -34,7 +34,7 @@ window.extensionRegister = (function (registerLib) {
             registerLib[screenName].route : {};
     };
     var loadModules = function (EXTENSIONS) {
-        angular.forEach(registerLib, function (module) {
+        angular.forEach(registerLib, function (module, i) {
             EXTENSIONS.push(module.moduleName);
             EXTENSIONS = $.merge(EXTENSIONS, $.map(window.extensionRegister.getExtensionRoutes(module.screenName), function (o) {
                 return o.moduleName;

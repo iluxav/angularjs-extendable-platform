@@ -1,4 +1,4 @@
-window.modules.coreDev.factory('htmlAppenderFactory', function (htmlAppendMethods) {
+window.modules.coreDev.factory('htmlAppenderFactory', ['htmlAppendMethods',function (htmlAppendMethods) {
     var append = function (screen) {
         var methods = Object.keys(htmlAppendMethods.methods);
         angular.forEach(methods, function (appendMethod) {
@@ -10,4 +10,4 @@ window.modules.coreDev.factory('htmlAppenderFactory', function (htmlAppendMethod
     return {
         append: append
     };
-});
+}]);

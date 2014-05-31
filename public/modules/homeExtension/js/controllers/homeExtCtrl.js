@@ -1,13 +1,13 @@
 'use strict'
 
 angular.module('modules.homeExtension', [])
-    .controller('modules.home.homeExtCtrl', function ($scope) {
-        $scope.somevar = "extension";
-        $scope.extVar = "ext var ";
+    .controller('modules.home.homeExtCtrl', ['$scope',function (scope) {
+        scope.somevar = "extension";
+        scope.extVar = "ext var ";
 
-        $scope.computedVar = function () {
-            return $scope.somevar + " 8888 " + $scope.extVar;
+        scope.computedVar = function () {
+            return scope.somevar + " 8888 " + scope.extVar;
         };
 
-    });
+    }]);
 

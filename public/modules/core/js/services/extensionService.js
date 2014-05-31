@@ -1,6 +1,6 @@
 
 
-window.modules.coreDev.factory('extendScopeService', function($controller) {
+window.modules.coreDev.factory('extendScopeService',['$controller', function(controller) {
 
     var extendController = function ($route,$scope) {
         if(!$route || !$route.current || !$route.current.$$route){
@@ -15,7 +15,7 @@ window.modules.coreDev.factory('extendScopeService', function($controller) {
         angular.forEach(extRoutes, function (value, key) {
             if(value.controller) {
                 var ctrl = value.controller;
-                $controller(ctrl, { $scope: $scope });
+                controller(ctrl, { $scope: $scope });
             }
         });
     };
@@ -23,4 +23,4 @@ window.modules.coreDev.factory('extendScopeService', function($controller) {
     return {
         extendController: extendController
     };
-});
+}]);

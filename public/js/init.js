@@ -6,12 +6,12 @@ var EXTENSIONS = [];
     //Populates EXTENSION array and sorts all the modules
     register.loadModules(EXTENSIONS);
 
-    angular.module('myApp', EXTENSIONS).config(function ($routeProvider, $interpolateProvider) {
+    angular.module('myApp', EXTENSIONS).config(["$routeProvider", "$interpolateProvider",function (routeProvider, interpolateProvider) {
         //extracts route config from every screen/extension
-        register.registerAngularRoutes($routeProvider);
-        $routeProvider.otherwise({redirectTo: '/'});
-        $interpolateProvider.startSymbol('{--').endSymbol('--}');
-    });
+        register.registerAngularRoutes(routeProvider);
+        routeProvider.otherwise({redirectTo: '/'});
+        interpolateProvider.startSymbol('{--').endSymbol('--}');
+    }]);
 }(window.extensionRegister));
 
 
