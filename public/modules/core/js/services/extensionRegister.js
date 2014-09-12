@@ -21,6 +21,9 @@ window.extensionRegister = (function (registerLib) {
             console.error("Unable to register extension for '" + screenName + "' screen. Base screen does not exists");
             return;
         }
+        if(route.templateUrl && route.templateUrl.indexOf('modules/partialViews')<0){
+            route.templateUrl = '/modules/partialViews/' + route.templateUrl;
+        }
         registerLib[screenName].extensions.push(route);
     };
 
