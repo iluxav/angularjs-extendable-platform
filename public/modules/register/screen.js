@@ -1,10 +1,8 @@
 
-
-
 window.extensionRegister.registerScreen({
     moduleName: "core",
     screenName:'Register',
-    path:'/home/register',
+    path:'/register',
     templateUrl: 'register/register.html',
     controller: 'registerCtrl'
 

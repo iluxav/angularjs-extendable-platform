@@ -1,9 +1,9 @@
-angular.module('index',[]);
+
 window.extensionRegister.registerScreen({
-    moduleName: "index",
+    moduleName: "core",
     screenName:'Index',
     path:'/',
-    templateUrl: 'index/index.html',
+    templateUrl: 'index/index.html',//[Module folder name]/[html view]
     controller: 'indexCtrl'
 
 });

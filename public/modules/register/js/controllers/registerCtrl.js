@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('register',[]).controller('registerCtrl',['$scope','$route','extendScopeService',
+window.modules.coreDev.controller('registerCtrl',['$scope','$route','extendScopeService',
     function(scope,route,extendScopeService){
 
         //code here

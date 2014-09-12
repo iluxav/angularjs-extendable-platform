@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('index',[]).controller('indexCtrl',['$scope','$route','extendScopeService',
+window.modules.coreDev.controller('indexCtrl',['$scope','$route','extendScopeService',
     function(scope,route,extendScopeService){
         scope.someText=''
 
