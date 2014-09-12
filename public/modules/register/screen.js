@@ -1,9 +1,6 @@
 
-window.extensionRegister.registerScreen({
-    moduleName: "core",
-    screenName:'Register',
+window.screenRegistry.newScreen('Register',{
     path:'/register',
     templateUrl: 'register/register.html',
     controller: 'registerCtrl'
-
 });

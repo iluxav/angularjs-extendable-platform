@@ -1,12 +1,21 @@
-window.extensionRegister = (function (registerLib) {
-    var registerScreen = function (route) {
-        if (!route) {
-            console.error("Please configure route parameters!!!");
-            return;
-        }
+window.screenRegistry = (function (registerLib) {
+    var newScreen = function (screenName,route) {
+        route.screenName=screenName;
+        var defaults={
+            moduleName: "core",
+            isCore:false
+        };
+        route = angular.extend(defaults, route);
+
         if (!route.screenName) {
             console.error("Please define screenName property");
         }
+
+        if ((!route || !route.controller || !route.templateUrl || !route.path) && !route.isCore) {
+            console.error("Failed to register '" + screenName + "' screen! ","\n Please configure route parameters!!!");
+            return;
+        }
+
         if(route.templateUrl && route.templateUrl.indexOf('modules/partialViews')<0){
             route.templateUrl = '/modules/partialViews/' + route.templateUrl;
         }
@@ -19,7 +28,13 @@ window.extensionRegister = (function (registerLib) {
         angular.extend(registerLib[route.screenName], route);
     };
 
-    var registerExtension = function (screenName, route) {
+    var extendScreen = function (screenName, route) {
+        route.screenName=screenName;
+        var defaults={
+            moduleName: "core",
+            loadPriority:1
+        };
+        route = angular.extend(defaults, route);
         if (!registerLib[screenName]) {
             console.error("Unable to register extension for '" + screenName + "' screen. Base screen does not exists");
             return;
@@ -42,7 +57,7 @@ window.extensionRegister = (function (registerLib) {
     var loadModules = function (EXTENSIONS) {
         angular.forEach(registerLib, function (module, i) {
             EXTENSIONS.push(module.moduleName);
-            EXTENSIONS = $.merge(EXTENSIONS, $.map(window.extensionRegister.getExtensionRoutes(module.screenName), function (o) {
+            EXTENSIONS = $.merge(EXTENSIONS, $.map(window.screenRegistry.getExtensionRoutes(module.screenName), function (o) {
                 return o.moduleName;
             }));
         });
@@ -62,8 +77,8 @@ window.extensionRegister = (function (registerLib) {
     };
 
     return {
-        registerScreen: registerScreen,
-        registerExtension: registerExtension,
+        newScreen: newScreen,
+        extendScreen: extendScreen,
         getExtensionRoutes: getExtensionRoutes,
         getRouteFor: getRouteFor,
         loadModules: loadModules,

@@ -1,7 +1,5 @@
 
-window.extensionRegister.registerExtension("Register", {
-    moduleName: "core",
+window.screenRegistry.extendScreen("Register", {
     templateUrl: 'registerWithMoreInfo/index.html',//[Module folder name]/[html view]
-    controller: 'registerExtCtrl',
-    loadPriority:1
+    controller: 'registerExtCtrl'
 });

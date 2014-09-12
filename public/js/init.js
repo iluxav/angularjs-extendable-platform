@@ -12,7 +12,7 @@ var EXTENSIONS = [];
         routeProvider.otherwise({redirectTo: '/'});
         interpolateProvider.startSymbol('{--').endSymbol('--}');
     }]);
-}(window.extensionRegister));
+}(window.screenRegistry));
 
 
 

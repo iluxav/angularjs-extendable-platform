@@ -8,7 +8,6 @@ var express = require('express'),
   api = require('./routes/api'),
   http = require('http'),
   engines = require('consolidate'),
-  assetmanager = require('assetmanager'),
   path = require('path');
 
 var app = module.exports = express();
@@ -43,19 +42,8 @@ if (app.get('env') === 'production') {
   // TODO
 }
 
-var assets = require('./assets.json');
-assetmanager.init({
-    js: assets.js,
-    css: assets.css,
-    debug: (process.env.NODE_ENV !== 'production'),
-    webroot: '/'
-});
 
-// Add assets to local variables
-app.use(function(req, res, next) {
-    res.locals.assets = assetmanager.assets;
-    next();
-});
+
 /**
  * Routes
  */
@@ -81,6 +69,6 @@ app.get('*', routes.index);
  * Start Server
  */
 
-http.createServer(app).listen(app.get('port'), function () {
+module.exports =http.createServer(app).listen(app.get('port'), function () {
   console.log('Express server listening on port ' + app.get('port'));
 });

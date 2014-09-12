@@ -11,7 +11,7 @@ window.modules.coreDev.factory('extendScopeService',['$controller', function(con
             console.error("'$scope' parameter is missing or undefined!");
             return;
         }
-        var extRoutes = window.extensionRegister.getExtensionRoutes($route.current.$$route.screenName);
+        var extRoutes = window.screenRegistry.getExtensionRoutes($route.current.$$route.screenName);
         angular.forEach(extRoutes, function (value, key) {
             if(value.controller) {
                 var ctrl = value.controller;
