@@ -1,9 +1,8 @@
 
 
-window.modules.coreDev =  angular.module("modules.coredev", []);
-
+    window.modules.coreDev = angular.module("core", []);
     window.extensionRegister.registerScreen( {
-        moduleName: 'modules.coredev',
+        moduleName: 'core',
         screenName:"CoreDev",
         loadPriority:2
     });

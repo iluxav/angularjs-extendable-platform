@@ -7,6 +7,9 @@ window.extensionRegister = (function (registerLib) {
         if (!route.screenName) {
             console.error("Please define screenName property");
         }
+        if(route.templateUrl && route.templateUrl.indexOf('modules/partialViews')<0){
+            route.templateUrl = '/modules/partialViews/' + route.templateUrl;
+        }
 
         if (!registerLib[route.screenName]) {
             registerLib[route.screenName] = {};

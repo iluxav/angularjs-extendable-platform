@@ -2,8 +2,8 @@ window.modules.coreDev.factory('htmlAppenderFactory', ['htmlAppendMethods',funct
     var append = function (screen) {
         var methods = Object.keys(htmlAppendMethods.methods);
         angular.forEach(methods, function (appendMethod) {
-            if (typeof appendMethod === 'function') {
-                appendMethod(screen);
+            if (typeof htmlAppendMethods.methods[appendMethod] === 'function') {
+                htmlAppendMethods.methods[appendMethod](screen);
             }
         });
     };

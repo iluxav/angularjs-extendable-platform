@@ -1,13 +1,9 @@
-
-
-var moduleName= "index";
-angular.module(moduleName, ['ngRoute']);
-
+angular.module('index',[]);
 window.extensionRegister.registerScreen({
-    moduleName: moduleName,
+    moduleName: "index",
     screenName:'Index',
     path:'/',
-    templateUrl: '/modules/partialViews/index/index.html',
-    controller: 'index.indexCtrl'
+    templateUrl: 'index/index.html',
+    controller: 'indexCtrl'
 
 });
