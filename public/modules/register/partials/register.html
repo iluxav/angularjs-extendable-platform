@@ -1,5 +1,82 @@
 <screen>
-  <p>
-     this is a register
-  </p>
+    <form class="form-horizontal" name="userForm" ng-submit="submit()">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend>Register (Core)</legend>
+
+            <!-- Text input-->
+            <div id="inputTextArea" class="form-group">
+                <label class="col-md-2 control-label" for="textinput1">Name</label>
+                <div class="col-md-4">
+                    <input ng-model="formData.name"
+                           required
+                           id="textinput1"
+                           name="name"
+                           type="text" placeholder="Name" class="form-control input-md">
+                    <p ng-show="userForm.name.$invalid && !userForm.name.$pristine" >
+                        Name!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-2 control-label" for="textinput2">Email</label>
+                <div class="col-md-4">
+                    <input ng-model="formData.email"
+                           id="textinput2"
+                           required
+                           name="email"
+                           type="email" placeholder="Email" class="form-control input-md">
+                    <p ng-show="userForm.email.$invalid && !userForm.email.$pristine" >
+                        Email!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Password input-->
+            <div class="form-group">
+                <label class="col-md-2 control-label" for="passwordinput3">Password</label>
+                <div class="col-md-4">
+                    <input ng-model="formData.password"
+                           id="passwordinput3"
+                           required
+                           name="password" type="password" placeholder="Password" class="form-control input-md">
+                    <p ng-show="userForm.password.$invalid && !userForm.password.$pristine" >
+                        Password field is empty!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Password input-->
+            <div class="form-group">
+                <label class="col-md-2 control-label" for="passwordinput4">Confirm Password</label>
+                <div class="col-md-4">
+                    <input ng-model="formData.cpassword"
+                            id="passwordinput4"
+                            required
+                            name="cpassword" type="password" placeholder="Confirm Password" class="form-control input-md">
+                    <p ng-show="userForm.cpassword.$invalid && !userForm.cpassword.$pristine" >
+                        Please confirm password!
+                    </p>
+                    <p ng-show="formData.cpassword!=formData.password">
+                        Password mismatch
+                    </p>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <input type="submit" class="btn btn-primary"/>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+    <p ng-show="serverResponse">
+        <h4>Server response</h4>{--serverResponse--}
+    </p>
 </screen>

@@ -67,6 +67,8 @@ app.get('/modules/partialViews/:module/:name', routes.partials);
 // JSON API
 app.get('/api/name', api.name);
 
+app.post('/api/register', api.register);
+
 // redirect all others to the index (HTML5 history)
 app.get('*.js', function(req,res,next){
     res.setHeader('content-type', 'text/javascript');

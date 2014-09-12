@@ -7,3 +7,7 @@ exports.name = function (req, res) {
     name: 'Bob'
   });
 };
+
+exports.register = function (req, res) {
+    res.json(req.body.data);
+};

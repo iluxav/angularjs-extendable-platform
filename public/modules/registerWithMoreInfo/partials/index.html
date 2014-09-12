@@ -1,0 +1,15 @@
+<append-after el="#inputTextArea">
+    <div id="inputCountryArea" class="form-group">
+        <label class="col-md-2 control-label" for="textinput5">Country</label>
+        <div class="col-md-4">
+            <input ng-model="formData.country"
+                   required
+                   id="textinput5"
+                   name="country"
+                   type="text" placeholder="Country" class="form-control input-md">
+            <p ng-show="userForm.country.$invalid && !userForm.country.$pristine" >
+                Country!
+            </p>
+        </div>
+    </div>
+</append-after>
