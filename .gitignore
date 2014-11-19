@@ -1,0 +1,39 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+ehthumbs.db
+Thumbs.db
+
+
+# Packages #
+############
+*.7z
+*.rar
+*.zip
+
+
+# Others        #
+#################
+README.html
+npm-debug.log
+components
+tmp
+.sass-cache/
+node_modules/
+projectFilesBackup/
+bower_components/
+*.crx
+*.pem
+temp
+.tmp
+dist
+package
+coverage
+
+.idea/workspace.xml
+.idea/tasks.xml
