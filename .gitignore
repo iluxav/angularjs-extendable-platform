@@ -27,6 +27,7 @@ tmp
 node_modules/
 projectFilesBackup/
 bower_components/
+node_modules/
 *.crx
 *.pem
 temp
