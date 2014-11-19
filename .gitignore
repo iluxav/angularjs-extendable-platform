@@ -20,21 +20,20 @@ Thumbs.db
 # Others        #
 #################
 README.html
+app/styles/
 npm-debug.log
 components
 tmp
+.idea/
 .sass-cache/
 node_modules/
 projectFilesBackup/
 bower_components/
-node_modules/
 *.crx
 *.pem
 temp
 .tmp
 dist
 package
+.idea
 coverage
-
-.idea/workspace.xml
-.idea/tasks.xml
